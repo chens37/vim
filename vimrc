@@ -10,6 +10,8 @@ set tabstop=4		"设置tab长度为4
 set shiftwidth=4	"设置自动对齐的缩进级别
 let mapleader=","	"設置<leader>鍵爲逗號
 inoremap jj <Esc>	"将ESC映射为两次j键
+"set clipboard=unnamed
+set clipboard=unnamedplus
 
 "table键设置为四个空格
 set ts=4
@@ -76,7 +78,7 @@ endif
 "LeaderF
 map <leader>F :LeaderfFunction<CR>
 map <leader>t :LeaderfLine<CR>
-map <leader>g :Leaderf rg
+map <leader>g :Leaderf rg 
 
 let g:Lf_ReverseOrder = 1
 
